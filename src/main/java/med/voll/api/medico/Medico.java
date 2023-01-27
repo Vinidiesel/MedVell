@@ -9,7 +9,7 @@ import med.voll.api.endereco.Endereco;
 
 @Table(name = "medicos")
 @Entity(name = "Medico")
-@Getter
+@Getter//faz os getters
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
