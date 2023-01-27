@@ -15,6 +15,8 @@ public record DadosCadastroMedico
          @Email//verifica se o que foi digitado bate com o padrão de emails
          String email,
          @NotBlank
+         String telefone,
+         @NotBlank
          @Pattern(regexp = "\\d{4,6}")//o D serve para mostrar que são digitos e que vai de 4 a 6 digitos
          String crm,
          @NotNull
